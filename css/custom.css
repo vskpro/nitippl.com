@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,300,700');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.m-auto {
+    margin: 0 auto;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+
+#about {
+    background-color: #ffffff;
+    color: rgb(65, 65, 65);
+}
+
+.navbar-brand > a {
+    color: #ffffff;
+}
+
+/* .navbar-fixed-top{
+    background: #222!important;
+} */
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 14px;
+}
+
+.caption-content h2, .slide-caption {
+    color: #222;
+}
+
+#service {
+    background-color: #f7f7f7;
+    color: #000;
+}
+
+#service h2, #service h3, .service-item h3 {
+    color: rgb(0, 0, 0);
+}
+
+#price {
+    background-color: #fafafa;
+}
+
+.service-item:hover .service-icon {
+    border: 3px solid #000000;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.navbar-fixed-top {
+    background-image: -webkit-linear-gradient(309deg, #01b6fe 75%, #0179ab 105%);
+    background-image: -o-linear-gradient(309deg, #01b6fe 75%, #0179ab 105%);
+    background-image: linear-gradient(141deg, #01b6fe 75%, #0179ab 105%);
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.blue-bg {
+    background-image: -webkit-linear-gradient(309deg, #01b6fe 75%, #0179ab 105%);
+    background-image: -o-linear-gradient(309deg, #01b6fe 75%, #0179ab 105%);
+    background-image: linear-gradient(141deg, #01b6fe 75%, #0179ab 105%);
+}
+
+.footer-content > p {
+    color: white;
+}
